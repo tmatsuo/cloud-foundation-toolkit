@@ -28,8 +28,8 @@ import (
 
 	"github.com/forseti-security/config-validator/pkg/api/validator"
 	"github.com/forseti-security/config-validator/pkg/gcv"
-	_struct "github.com/golang/protobuf/ptypes/struct"
 	"github.com/pkg/errors"
+	_struct "google.golang.org/protobuf/types/known/structpb"
 )
 
 // ScoringConfig holds settings for generating a score
