@@ -83,7 +83,11 @@ locals {
     "cloud-router",
     "group",
     "data-fusion",
+    "module-template",
+    "vault",
+    "docs-samples",
   ]
+  # These should also be added to test-org/github/branch.tf#L19 till the todo is resolved.
   gcp_org_modules = [
     "example-foundation-app", # Not module
     "anthos-samples",
@@ -94,6 +98,8 @@ locals {
     "blueprints", # Not module
     "policy-blueprints",
     "secret-manager",
-    "module-template",
+    "load-balanced-vms",
+    "three-tier-app",
+    "log-analysis",
   ]
 }
